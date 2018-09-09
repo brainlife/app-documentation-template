@@ -6,7 +6,7 @@ This is an example of how to write documentation (readme.md and license.md for A
 This service does the X, Y and Z. Executes code X, Y and Z to perform X, Y and Z analysis.
 
 #### Authors
-- Franco Pestilli Indiana University 2018
+- Franco Pestilli (franpest@indiana.edu)
 
 ## Running the App 
 
