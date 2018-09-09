@@ -1,4 +1,5 @@
-[![Abcdspec-compliant](https://img.shields.io/badge/ABCD_Spec-v1.0-green.svg)](https://github.com/soichih/abcd-spec)
+[![Abcdspec-compliant](https://img.shields.io/badge/ABCD_Spec-v1.1-green.svg)](https://github.com/soichih/abcd-spec)
+[![Run on Brainlife.io](https://img.shields.io/badge/Brainlife-bl.app.1-blue.svg)](https://doi.org/10.25663/bl.app.1)
 
 # app-example-documentation
 This is an example of how to write documentation (readme.md and license.md for Apps on brainlife.io)
@@ -17,7 +18,7 @@ You can submit this App online at [https://doi.org/10.25663/bl.app.1](https://do
 ### Running Locally (on your machine)
 
 1. git clone this repo.
-2. Inside the cloned directory, create `config.json` with something like the following content with paths to your input files (relative to /input that you are going to specify below)
+2. Inside the cloned directory, create `config.json` with something like the following content with paths to your input files.
 
 ```json
 {
