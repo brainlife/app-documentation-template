@@ -5,6 +5,9 @@ This is an example of how to write documentation (readme.md and license.md for A
 
 This service does the X, Y and Z. Executes code X, Y and Z to perform X, Y and Z analysis.
 
+#### Authors
+- Franco Pestilli Indiana University 2018
+
 ## Running the App 
 
 ### Using Docker
@@ -80,7 +83,7 @@ fe =
 > TODO.. explain this a bit more..
 
 
-# Dependencies
+### Dependencies
 This App requires the following libraries when run as shell (not using the compiled docker container).
 
   - VISTASOFT: https://github.com/vistalab/vistasoft/
