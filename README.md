@@ -10,57 +10,44 @@ This service does the X, Y and Z. Executes code X, Y and Z to perform X, Y and Z
 
 ## Running the App 
 
-### Using Docker
+### On Brainlife.io
 
-First, create output directory and store your config.json contaning path to your input files (relative to /input that you are going to specify below)
+You can submit this App online at [https://doi.org/10.25663/bl.app.1](https://doi.org/10.25663/bl.app.1) via the "Execute" tab.
 
-```bash
-cat > config.json << CONF
+### Running Locally (on your machine)
+
+1. git clone this repo.
+2. Inside the cloned directory, create `config.json` with something like the following content with paths to your input files (relative to /input that you are going to specify below)
+
+```json
 {
-        "t1": "/input/sub-FP/anatomy/t1.nii.gz",
-        "track": "/input/sub-FP/tractography/run01_fliprot_aligned_trilin_csd_lmax10_wm_SD_PROB-NUM01-500000.tck",
-	"dwi": "/input/sub-FP/dwi/run01_fliprot_aligned_trilin.nii.gz",
-	"bvecs": "/input/sub-FP/dwi/run01_fliprot_aligned_trilin.bvecs",
-	"bvals": "/input/sub-FP/dwi/run01_fliprot_aligned_trilin.bvals",
+        "track": "./input/track/track.tck",
+	"dwi": "./input/dtiinit/dwi_aligned_trilin_noMEC.nii.gz",
+	"bvecs": "./input/dtiinit/dwi_aligned_trilin_noMEC.nii.bvecs",
+	"bvals": "./input/dtiinit/dwi_aligned_trilin_noMEC.nii.bvals",
         "life_discretization": 360,
         "num_iterations": 100
 }
-CONF
 ```
 
-Then, launch brainlife/life
+### Sample Datasets
+
+You can download sample datasets from Brainlife using Brainlife CLI.
+
+```
+npm install -g brainlife
+bl login
+mkdir input
+bl dataset download 5a0e604116e499548135de87 && mv 5a0e604116e499548135de87 input/track
+bl dataset download 5a0dcb1216e499548135dd27 && mv 5a0dcb1216e499548135dd27 input/dtiinit
+```
+
+
+3. Launch the App by executing `main`
 
 ```bash
-docker run --rm -it \
-	-v /mnt/v1/testdata:/input \
-	-v `pwd`:/output \
-	brainlife/life
+./main
 ```
-
-* Replace `/mnt/v1/testdata` to where you have your input files. 
-* Replace `pwd` to point to your output directory (if you don't want them to go to your current working directory). If you change this, be sure to move your config.json there also. This container starts up with current directory set to /output.
-
-### Using the Command Line
-
-Note. Currently, this service can only be launched on command line on Resource XYZ.
-
-First, create your config.json
-
-```bash
-cat > config.json << CONF
-{
-        "t1": "/input/sub-FP/anatomy/t1.nii.gz",
-        "track": "/input/sub-FP/tractography/run01_fliprot_aligned_trilin_csd_lmax10_wm_SD_PROB-NUM01-500000.tck",
-	"dwi": "/input/sub-FP/dwi/run01_fliprot_aligned_trilin.nii.gz",
-	"bvecs": "/input/sub-FP/dwi/run01_fliprot_aligned_trilin.bvecs",
-	"bvals": "/input/sub-FP/dwi/run01_fliprot_aligned_trilin.bvals",
-        "life_discretization": 360,
-        "num_iterations": 100
-}
-CONF
-```
-
-Then, execute `start.sh` which will submit a job to PBS queue.
 
 ## Output
 
@@ -80,12 +67,11 @@ fe =
 
 `output_fg.pdb` contains all fasicles with >0 weights withtin fg object (fibers)
 
-> TODO.. explain this a bit more..
-
-
 ### Dependencies
-This App requires the following libraries when run as shell (not using the compiled docker container).
 
+This App requires the following libraries when run locally.
+
+  - singularity: https://singularity.lbl.gov/
   - VISTASOFT: https://github.com/vistalab/vistasoft/
   - ENCODE: https://github.com/brain-life/encode
   - MBA: https://github.com/francopestilli/mba
