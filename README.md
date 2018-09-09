@@ -68,7 +68,8 @@ fe =
 
 `output_fg.pdb` contains all fasicles with >0 weights withtin fg object (fibers)
 
-The secondary output of this app is `prduct.json`. This file allows web interfaces, DB and API calls on the results of the processing. 
+#### Product.json
+The secondary output of this app is `product.json`. This file allows web interfaces, DB and API calls on the results of the processing. 
 
 ### Dependencies
 
