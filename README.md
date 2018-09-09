@@ -83,6 +83,8 @@ fe =
 # Dependencies
 This App requires the following libraries when run as shell (not using the compiled docker container).
 
-  VISTASOFT
-  ENCODE
-  MBA
+  - VISTASOFT
+  
+  - ENCODE
+  
+  - MBA
