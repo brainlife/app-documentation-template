@@ -33,7 +33,7 @@ You can submit this App online at [https://doi.org/10.25663/bl.app.1](https://do
 
 ### Sample Datasets
 
-You can download sample datasets from Brainlife using Brainlife CLI.
+You can download sample datasets from Brainlife using [Brainlife CLI](https://github.com/brain-life/cli).
 
 ```
 npm install -g brainlife
