@@ -6,16 +6,16 @@ This is an example of how to write documentation (readme.md and license.md for A
 
 This service does the X, Y and Z. Executes code X, Y and Z to perform X, Y and Z analysis.
 
-#### Authors
+### Authors
 - Franco Pestilli (franpest@indiana.edu)
 
-#### Contributors
+### Contributors
 - Soichi Hayashi (hayashis@iu.edu)
 
-#### Funding 
+### Funding 
 [![NSF-BCS-1734853](https://img.shields.io/badge/NSF_BCS-1734853-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1734853)
 
-#### References 
+### References 
 [Caiafa and Pestilli Scientific Reports 2017](https://www.ncbi.nlm.nih.gov/pubmed/28904382)
 
 [Pestilli et al. Nature Methods 2014](https://www.ncbi.nlm.nih.gov/pubmed/25194848)
