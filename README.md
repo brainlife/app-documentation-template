@@ -50,7 +50,7 @@ You can submit this App online at [https://doi.org/10.25663/bl.app.1](https://do
 
 ### Sample Datasets
 
-If you don't have your own input file, you can download sample datasets from Brainlif.io, or you can use [Brainlife CLI](https://github.com/brain-life/cli).
+If you don't have your own input file, you can download sample datasets from Brainlife.io, or you can use [Brainlife CLI](https://github.com/brain-life/cli).
 
 ```
 npm install -g brainlife
