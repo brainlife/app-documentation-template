@@ -17,6 +17,7 @@ This service does the X, Y and Z. Executes code X, Y and Z to perform X, Y and Z
 
 #### References 
 [Caiafa and Pestilli Scientific Reports 2017](https://www.ncbi.nlm.nih.gov/pubmed/28904382)
+
 [Pestilli et al. Nature Methods 2014](https://www.ncbi.nlm.nih.gov/pubmed/25194848)
 
 ## Running the App 
