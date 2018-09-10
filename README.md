@@ -16,9 +16,9 @@ This service does the X, Y and Z. Executes code X, Y and Z to perform X, Y and Z
 [![NSF-BCS-1734853](https://img.shields.io/badge/NSF_BCS-1734853-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1734853)
 
 ### References 
-[Caiafa and Pestilli Scientific Reports 2017](https://www.ncbi.nlm.nih.gov/pubmed/28904382)
+[1. Caiafa and Pestilli. Multidimensional encoding of brain connectomes. Scientific Reports 2017](https://www.ncbi.nlm.nih.gov/pubmed/28904382)
 
-[Pestilli et al. Nature Methods 2014](https://www.ncbi.nlm.nih.gov/pubmed/25194848)
+[2. Pestilli et al. Evaluation and statistical inference for human connectomes. Nature Methods 2014](https://www.ncbi.nlm.nih.gov/pubmed/25194848)
 
 ## Running the App 
 
