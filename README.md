@@ -9,6 +9,12 @@ This service does the X, Y and Z. Executes code X, Y and Z to perform X, Y and Z
 #### Authors
 - Franco Pestilli (franpest@indiana.edu)
 
+#### Contributors
+- Soichi Hayashi (hayashis@iu.edu)
+
+#### Funding 
+[[![NSF](https://img.shields.io/badge/NSF-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1734853)
+
 ## Running the App 
 
 ### On Brainlife.io
