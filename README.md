@@ -81,7 +81,7 @@ The secondary output of this app is `product.json`. This file allows web interfa
 
 This App requires the following libraries when run locally.
 
-  - Singularity: https://www.sylabs.io/ (older: https://singularity.lbl.gov/)
+  - Singularity: https://www.sylabs.io/singularity/
   - VISTASOFT: https://github.com/vistalab/vistasoft/
   - ENCODE: https://github.com/brain-life/encode
   - MBA: https://github.com/francopestilli/mba
