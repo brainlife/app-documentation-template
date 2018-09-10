@@ -42,9 +42,15 @@ You can submit this App online at [https://doi.org/10.25663/bl.app.1](https://do
 }
 ```
 
+3. Launch the App by executing `main`
+
+```bash
+./main
+```
+
 ### Sample Datasets
 
-You can download sample datasets from Brainlife using [Brainlife CLI](https://github.com/brain-life/cli).
+If you don't have your own input file, you can download sample datasets from Brainlif.io, or you can use [Brainlife CLI](https://github.com/brain-life/cli).
 
 ```
 npm install -g brainlife
@@ -52,13 +58,6 @@ bl login
 mkdir input
 bl dataset download 5a0e604116e499548135de87 && mv 5a0e604116e499548135de87 input/track
 bl dataset download 5a0dcb1216e499548135dd27 && mv 5a0dcb1216e499548135dd27 input/dtiinit
-```
-
-
-3. Launch the App by executing `main`
-
-```bash
-./main
 ```
 
 ## Output
@@ -80,13 +79,13 @@ fe =
 `output_fg.pdb` contains all fasicles with >0 weights withtin fg object (fibers)
 
 #### Product.json
+
 The secondary output of this app is `product.json`. This file allows web interfaces, DB and API calls on the results of the processing. 
 
 ### Dependencies
 
-This App requires the following libraries when run locally.
+This App only requires [singularity](https://www.sylabs.io/singularity/) to run. If you don't have singularity, you will need to install following dependencies.  
 
-  - Singularity: https://www.sylabs.io/singularity/
   - VISTASOFT: https://github.com/vistalab/vistasoft/
   - ENCODE: https://github.com/brain-life/encode
   - MBA: https://github.com/francopestilli/mba
