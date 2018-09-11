@@ -12,8 +12,12 @@ This service does the X, Y and Z. Executes code X, Y and Z to perform X, Y and Z
 ### Contributors
 - Soichi Hayashi (hayashis@iu.edu)
 
+### Project directors
+- Franco Pestilli (franpest@indiana.edu)
+
 ### Funding 
 [![NSF-BCS-1734853](https://img.shields.io/badge/NSF_BCS-1734853-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1734853)
+[![NSF-BCS-1636893](https://img.shields.io/badge/NSF_BCS-1636893-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1636893)
 
 ### References 
 [1. Caiafa and Pestilli. (2017) Multidimensional encoding of brain connectomes. Scientific Reports.](https://www.ncbi.nlm.nih.gov/pubmed/28904382)
