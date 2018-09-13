@@ -83,6 +83,8 @@ The secondary output of this app is `product.json`. This file allows web interfa
 
 This App only requires [singularity](https://www.sylabs.io/singularity/) to run. If you don't have singularity, you will need to install following dependencies.  
 
+  - Matlab: https://www.mathworks.com/products/matlab.html
+  - jsonlab: https://www.mathworks.com/matlabcentral/fileexchange/33381-jsonlab-a-toolbox-to-encode-decode-json-files
   - VISTASOFT: https://github.com/vistalab/vistasoft/
   - ENCODE: https://github.com/brain-life/encode
   - MBA: https://github.com/francopestilli/mba
