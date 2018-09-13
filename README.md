@@ -7,9 +7,7 @@ This is an example of how to write documentation (readme.md and license.md for A
 This service does the X, Y and Z. Executes code X, Y and Z to perform X, Y and Z analysis.
 
 ### Authors
-- Franco Pestilli (franpest@indiana.edu)
-
-### Contributors
+- Lindsey Kitchell (kitchell@indiana.edu)
 - Soichi Hayashi (hayashis@iu.edu)
 
 ### Project directors
@@ -18,11 +16,6 @@ This service does the X, Y and Z. Executes code X, Y and Z to perform X, Y and Z
 ### Funding 
 [![NSF-BCS-1734853](https://img.shields.io/badge/NSF_BCS-1734853-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1734853)
 [![NSF-BCS-1636893](https://img.shields.io/badge/NSF_BCS-1636893-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1636893)
-
-### References 
-[1. Caiafa and Pestilli. (2017) Multidimensional encoding of brain connectomes. Scientific Reports.](https://www.ncbi.nlm.nih.gov/pubmed/28904382)
-
-[2. Pestilli et al. (2014) Evaluation and statistical inference for human connectomes. Nature Methods.](https://www.ncbi.nlm.nih.gov/pubmed/25194848)
 
 ## Running the App 
 
@@ -66,7 +59,7 @@ bl dataset download 5a0dcb1216e499548135dd27 && mv 5a0dcb1216e499548135dd27 inpu
 
 ## Output
 
-The main output of this App is a file called `output.mat`. This file contains following object.
+All output files will be generated under the current working directory (pwd). The main output of this App is a file called `output.mat`. This file contains following object.
 
 ```
 fe = 
