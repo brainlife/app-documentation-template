@@ -4,7 +4,11 @@
 # app-example-documentation
 This is an example of how to write documentation (readme.md and license.md for Apps on brainlife.io)
 
-This service does the X, Y and Z. Executes code X, Y and Z to perform X, Y and Z analysis.
+Write the following here...
+
+1) What the App does, and how it does it at the basic level.
+2) Briefly explain what 1) means for novice users in a language that 1st year psychology student can understand it.
+3) Briefly description of input / output files.
 
 ### Authors
 - Lindsey Kitchell (kitchell@indiana.edu)
