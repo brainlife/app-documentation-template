@@ -14,7 +14,7 @@ Write the following here...
 - Lindsey Kitchell (kitchell@indiana.edu)
 - Soichi Hayashi (hayashis@iu.edu)
 
-### Project directors
+### Project director
 - Franco Pestilli (franpest@indiana.edu)
 
 ### Funding 
