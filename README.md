@@ -11,8 +11,9 @@ Write the following here...
 3) Briefly description of input / output files.
 
 ### Authors
-- Lindsey Kitchell (kitchell@indiana.edu)
-- Soichi Hayashi (hayashis@iu.edu)
+- [Baran Ayodogan](baran.aydogan@aalto.fi)
+- [Bradley Caron](bacaron@iu.edu)
+- [Soichi Hayashi](hayashis@iu.edu)
 
 ### Project director
 - Franco Pestilli (franpest@indiana.edu)
