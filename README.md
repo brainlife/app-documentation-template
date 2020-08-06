@@ -11,12 +11,11 @@ Write the following here...
 3) Briefly description of input / output files.
 
 ### Authors
-- [Baran Ayodogan](baran.aydogan@aalto.fi)
 - [Bradley Caron](bacaron@iu.edu)
 - [Soichi Hayashi](hayashis@iu.edu)
 
 ### Contributors
-- Franco Pestilli (frakkopesto@gmail.com)
+- [Franco Pestilli](frakkopesto@gmail.com)
 
 ### Funding Acknowledgement
 brainlife.io is publicly funded and for the sustainability of the project it is helpful to Acknowledge the use of the platform. We kindly ask that you acknowledge the funding below in your publications and code reusing this code.
@@ -105,4 +104,4 @@ This App only requires [singularity](https://www.sylabs.io/singularity/) to run.
   - ENCODE: https://github.com/brain-life/encode
   - MBA: https://github.com/francopestilli/mba
 
-#### Copyright (c) 2020 brainlife.io at University of Texas at Austin and Indiana University
+#### Copyright (c) 2020 brainlife.io The University of Texas at Austin and Indiana University
