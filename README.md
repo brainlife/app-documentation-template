@@ -104,4 +104,4 @@ This App only requires [singularity](https://www.sylabs.io/singularity/) to run.
   - ENCODE: https://github.com/brain-life/encode
   - MBA: https://github.com/francopestilli/mba
 
-#### Copyright (c) 2020 brainlife.io The University of Texas at Austin and Indiana University
+#### MIT Copyright (c) 2020 brainlife.io The University of Texas at Austin and Indiana University
