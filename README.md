@@ -2,9 +2,7 @@
 [![Run on Brainlife.io](https://img.shields.io/badge/Brainlife-bl.app.346-blue.svg)](https://doi.org/10.25663/brainlife.app.346)
 
 # app-example-documentation
-This is an example of how to write documentation (readme.md and license.md for Apps on brainlife.io)
-
-Write the following here...
+This is a minimal example of brainlife.io App README. Please update and add something like the following content...
 
 1) What the App does, and how it does it at the basic level.
 2) Briefly explain what 1) means for novice users in a language that 1st year psychology student can understand it.
