@@ -29,7 +29,7 @@ We kindly ask that you cite the following articles when publishing papers and co
 
 1. Avesani, P., McPherson, B., Hayashi, S. et al. The open diffusion data derivatives, brain data upcycling via integrated publishing of derivatives and reproducible open cloud services. Sci Data 6, 69 (2019). [https://doi.org/10.1038/s41597-019-0073-y](https://doi.org/10.1038/s41597-019-0073-y)
 
-#### MIT Copyright (c) 2020 brainlife.io The University of Texas at Austin
+#### MIT Copyright (c) 2022 brainlife.io The University of Texas at Austin
 
 
 ## Running the App 
