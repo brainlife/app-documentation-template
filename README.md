@@ -9,11 +9,11 @@ This is a minimal example of brainlife.io App README. Please update and add some
 3) Briefly description of input / output files.
 
 ### Authors
-- [Bradley Caron](bacaron@iu.edu)
-- [Soichi Hayashi](hayashis@iu.edu)
+- [Franco Pestilli](frakkopesto@gmail.com)
 
 ### Contributors
-- [Franco Pestilli](frakkopesto@gmail.com)
+- [Bradley Caron](bacaron@iu.edu)
+- [Soichi Hayashi](hayashis@iu.edu)
 
 ### Funding Acknowledgement
 brainlife.io is publicly funded and for the sustainability of the project it is helpful to Acknowledge the use of the platform. We kindly ask that you acknowledge the funding below in your publications and code reusing this code.
@@ -29,7 +29,7 @@ We kindly ask that you cite the following articles when publishing papers and co
 
 1. Avesani, P., McPherson, B., Hayashi, S. et al. The open diffusion data derivatives, brain data upcycling via integrated publishing of derivatives and reproducible open cloud services. Sci Data 6, 69 (2019). [https://doi.org/10.1038/s41597-019-0073-y](https://doi.org/10.1038/s41597-019-0073-y)
 
-#### MIT Copyright (c) 2020 brainlife.io The University of Texas at Austin and Indiana University
+#### MIT Copyright (c) 2020 brainlife.io The University of Texas at Austin
 
 
 ## Running the App 
@@ -104,4 +104,4 @@ This App only requires [singularity](https://www.sylabs.io/singularity/) to run.
   - ENCODE: https://github.com/brain-life/encode
   - MBA: https://github.com/francopestilli/mba
 
-#### MIT Copyright (c) 2020 brainlife.io The University of Texas at Austin and Indiana University
+#### MIT Copyright (c) 2022 brainlife.io The University of Texas at Austin
